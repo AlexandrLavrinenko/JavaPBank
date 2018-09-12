@@ -11,8 +11,8 @@ import java.util.Scanner;
  */
 public class Interval {
 
-    private static int digit;
-    private static String priznakInterval = " не входит не в один из указанных интервалов ([0 - 14], [15 - 35], [36 - 50], [50 - 100])";
+    protected static int digit;
+    protected static String priznakInterval = " не входит не в один из указанных интервалов ([0 - 14], [15 - 35], [36 - 50], [50 - 100])";
 
     private static boolean checkInput(String strResult) {
         Boolean result = false;
@@ -33,7 +33,7 @@ public class Interval {
         }
     }
 
-    private static void enterDigit() {
+    protected static void enterDigit() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите целое число: ");
         //Проверка на корректность введенных данных
@@ -62,6 +62,6 @@ public class Interval {
     public static void main(String[] args) {
         enterDigit();
         intervalDistribution();
-        System.out.println("Число " + Interval.digit + Interval.priznakInterval);
+        System.out.println(new StringBuilder().append("Число ").append(Interval.digit).append(Interval.priznakInterval).toString());
     }
 }

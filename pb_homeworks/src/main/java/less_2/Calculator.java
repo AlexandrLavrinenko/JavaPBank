@@ -1,3 +1,5 @@
+package less_2;
+
 import java.util.Scanner;
 
 /**
@@ -21,7 +23,7 @@ public class Calculator {
      * @param operand1 .
      * @param operand2 .
      */
-    protected static void add(double operand1, double operand2) {
+    public static void add(double operand1, double operand2) {
         Calculator.result = operand1 + operand2;
     }
 
@@ -32,7 +34,7 @@ public class Calculator {
      * @param operand1 .
      * @param operand2 .
      */
-    protected static void subtract(double operand1, double operand2) {
+    public static void subtract(double operand1, double operand2) {
         Calculator.result = operand1 - operand2;
     }
 
@@ -43,7 +45,7 @@ public class Calculator {
      * @param operand1 .
      * @param operand2 .
      */
-    protected static void div(double operand1, double operand2) {
+    public static void div(double operand1, double operand2) {
         Calculator.result = operand1 / operand2;
     }
 
@@ -54,7 +56,7 @@ public class Calculator {
      * @param operand1 .
      * @param operand2 .
      */
-    protected static void multip(double operand1, double operand2) {
+    public static void multip(double operand1, double operand2) {
         Calculator.result = operand1 * operand2;
     }
 
