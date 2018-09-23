@@ -20,11 +20,11 @@ public class Dog extends Animal {
         return name;
     }
 
-    public void getInBus() {
+    public void getInBus(Passenger owner) {
         System.out.println("Собкака по кличке " + getName() + " зашла за хозяном по имени " + owner.getName() + " в автобус.");
     }
 
-    public void getOutBus() {
+    public void getOutBus(Passenger owner) {
         System.out.println("Собкака по кличке " + getName() + " вышла вслед за хозяном по имени " + owner.getName() + " из автобуса.");
     }
 }
