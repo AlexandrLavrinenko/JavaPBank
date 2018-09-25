@@ -62,6 +62,7 @@ public class TripByRoute {
         pass4.getOutBus();
         pass5.getOutBus();
 
+        //При описании классов их следует разместить по пакетам и добавить описание методов (javadoc)
     }
 }
 
