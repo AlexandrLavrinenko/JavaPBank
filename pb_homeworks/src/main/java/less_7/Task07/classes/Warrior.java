@@ -1,4 +1,4 @@
-package less_7.Task07;
+package less_7.Task07.classes;
 
 import less_7.Task07.interfaces.Jumpable;
 import less_7.Task07.interfaces.Shootable;
@@ -20,22 +20,21 @@ public class Warrior extends Person implements Runnable, Shootable, Jumpable {
 
     @Override
     public String toString() {
-        return getType() + " " + getName() + " with " + getHp() + " health";
+        return getType() + " " + super.toString();
     }
 
     @Override
     public void run() {
-        System.out.println(this.toString() + " run winh speed " + getSpeedRun());
+        System.out.println(this.toString() + " run with speed " + getSpeedRun());
     }
 
     @Override
     public void doJump() {
-        System.out.println();
-
+        System.out.println(type + " " + super.toString() + " " + "jumped");
     }
 
     @Override
-    public void doShoot() {
-
+    public void doShoot(String s) {
+        System.out.println("No shooting...");
     }
 }

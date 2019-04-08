@@ -1,4 +1,4 @@
-package less_7.Task07;
+package less_7.Task07.classes;
 
 public abstract class Person {
     private String name;
@@ -18,6 +18,14 @@ public abstract class Person {
         this.hp = hp;
         this.speedRun = 1;
         this.highJump = 10;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", hp=" + hp +
+                '}';
     }
 
     public String getName() {
