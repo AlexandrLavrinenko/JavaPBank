@@ -1,10 +1,10 @@
-package less_7.Task07;
+package less_7.task_07;
 
-import less_7.Task07.classes.Thief;
-import less_7.Task07.classes.Warrior;
-import less_7.Task07.interfaces.Runable;
-import less_7.Task07.interfaces.Shootable;
-import less_7.Task07.interfaces.Sweemable;
+import less_7.task_07.classes.Thief;
+import less_7.task_07.classes.Warrior;
+import less_7.task_07.interfaces.Runable;
+import less_7.task_07.interfaces.Shootable;
+import less_7.task_07.interfaces.Sweemable;
 
 public class Main {
 

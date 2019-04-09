@@ -1,7 +1,7 @@
-package less_7.Task07.classes;
+package less_7.task_07.classes;
 
-import less_7.Task07.interfaces.Jumpable;
-import less_7.Task07.interfaces.Shootable;
+import less_7.task_07.interfaces.Jumpable;
+import less_7.task_07.interfaces.Shootable;
 
 public class Warrior extends Person implements Runnable, Shootable, Jumpable {
     private String type = "Warrior";

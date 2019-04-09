@@ -1,4 +1,4 @@
-package less_7.Task07.classes;
+package less_7.task_07.classes;
 
 public abstract class Person {
     private String name;
